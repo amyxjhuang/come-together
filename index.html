@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Come Together | Amy Huang</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/face_mesh"></script>
+    <style>
+        body { display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        canvas { position: absolute; }
+    </style>
+</head>
+<body>
+    <video id="webcam" autoplay playsinline style="display:none;"></video>
+    <canvas id="output"></canvas>
+    <script src="app.js"></script>
+</body>
+</html> 
